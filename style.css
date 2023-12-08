@@ -1,0 +1,149 @@
+*{
+  margin: 10;
+  padding: 0;
+
+}
+
+
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 10% 5% 10%;
+  overflow: hidden;
+
+
+}
+li a img{
+  width: 20px;
+}
+
+li img{
+  width: 100px;
+}
+
+li svg{
+  color: #5f2525;
+}
+li a{
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li a:hover {
+  background-color: #146c8b;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+margin-left: 38%;
+ border: solid;
+ max-width: 30%;
+ height: 50px;
+ background-color: #F39C94 ;
+ border: none;
+ margin-bottom: 5%;
+}
+.search-bar input{
+  width: 80%;
+  height: 90%;
+  border: none;
+  border-right:solid black ;
+  background-color: #F39C94;
+}
+.search-bar svg{
+  width: 10%;
+}
+
+.titre{
+  margin-bottom: 5%;
+  margin-left: 4%;
+}
+.champ-compte{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.champ input{
+  margin-bottom: 15%;
+  padding: 5%;
+  border-radius: 5px;
+  min-width: 110%;
+}
+
+input[type=button]{
+  margin-left: 5%;
+  width: 110%;
+  background: rgb(89,88,96);
+  background: linear-gradient(180deg, rgba(89,88,96,1) 0%, rgba(116,115,120,1) 29%, rgba(150,149,150,1) 65%, rgba(219,191,206,0) 100%);
+}
+.trans{
+  margin-top: -10%;
+  margin-left: 35px;
+
+}
+.trans p a{
+  text-decoration: none;
+  color: #000000;
+}
+hr{
+  margin-top: 10%;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 10% 2% 10%;
+}
+.top a{
+  text-decoration: none;
+  color: #000;
+}
+.img-link a img{
+  width: 150px;
+}
+.img-place img map{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.img-place img{
+  width: 30px;
+}
+
+.img-place map{
+  margin-top: -9%;
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7% 2% 7%;
+
+}
+.bottom a{
+  text-decoration: none;
+  color: #000;
+}
+.img-mail img{
+  width: 30px;
+}
+.img-mail img a{
+
+}
+.img-wha img{
+  width: 30px;
+}
+
+.icones-link img{
+  width: 30px;
+}

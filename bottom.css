@@ -1,0 +1,54 @@
+
+hr{
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10% 2% 10%;
+  }
+  .top a{
+    text-decoration: none;
+    color: #000;
+  }
+  .img-link a img{
+    width: 150px;
+  }
+  .img-place img map{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .img-place img{
+    width: 30px;
+  }
+  
+  .img-place map{
+    margin-top: -9%;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7% 2% 7%;
+  
+  }
+  .bottom a{
+    text-decoration: none;
+    color: #000;
+  }
+  .img-mail img{
+    width: 30px;
+  }
+  .img-mail img a{
+  
+  }
+  .img-wha img{
+    width: 30px;
+  }
+  
+  .icones-link img{
+    width: 30px;
+  }

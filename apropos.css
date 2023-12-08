@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+}
+
+img {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -6%;
+}
+.container{
+    background-color: #c342420f;
+}
+.container .el{
+    display: flex;
+    margin: 3% 10% 3% 5%;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.container .el .chef{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container .el .descrip{
+    width: 50%;
+}
+
+.container .el .descrip p{
+    font-family: 'Song Myung', serif;
+   
+}
+.container .el .chef img{
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+}
+.container .chef h5{
+    text-align: center;
+}
+
+.container h4{
+    padding: 1% 0 1% 0;
+    width: 20%;
+    background-color: #F39C94;
+    text-align: center;
+    font-family: 'Song Myung', serif;
+    margin-bottom: 2%;
+}
+
+.temoin {
+    display: flex;
+}
+
+.temoin .coment{
+    padding: 5%;
+}
+
+.temoin .coment p{
+    font-family: 'Song Myung', serif;
+
+}
+.temoin .coment img{
+    width: 20%;
+}

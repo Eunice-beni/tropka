@@ -1,0 +1,229 @@
+*{
+    margin: auto;
+}
+
+.container{
+height: 100%;
+margin-bottom: -9%;
+}
+
+.container1{
+  height: 33%;
+background-color: #E6E6E6;
+display: flex;
+justify-content: space-evenly;
+padding-top: 5%;
+}
+
+.container1 img{
+  width: 25%;
+}
+
+.container1 .texte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2%;
+}
+.container1 .texte h1{
+  font-size: 90px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merienda', cursive;
+
+}
+
+.container1 .texte h6{
+  font-size: 15px;
+}
+.container1 .texte h4{
+ color: #FF0303;
+ padding-top: 2%;
+}
+
+.button{
+  width: 100%;
+  background-color: #E6E6E6;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.button a button{
+  border: none;
+  background-color: #F24822;
+width: 155%;
+  padding: 10% 0 10% 0;
+  border-radius: 20px;
+  color: white;
+}
+
+
+.container2{
+  display: flex;
+  background-color: #f2482268;
+}
+
+.container2 .bloc1{
+  width: 50%;
+  padding: 2%;
+}
+.container2 .bloc1 p{
+  text-align: center;
+  font-size: 13px;
+  
+}
+.container2 .bloc1{
+  width: 50%;
+  height: auto;
+}
+.container2 .bloc2{
+  width: 50%;
+  height: auto;
+
+}
+.container2 .bloc3{
+  width: 50%;
+  height: auto;
+
+}
+.container2 .bloc2 img{
+  width: 80%;
+}
+
+.container2 .bloc1 a button{
+  margin-top: 2%;
+  border-color: #F24822;
+  background-color: #f248221d;
+  width: 25%;
+  padding: 2% 0 2% 0;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+.container3 .part2{
+ display: flex;
+ margin: 2% 0 2% 0;
+}
+
+.container3 .part1 img{
+  width: 25%;
+  margin: 2% 0 1% 2%;
+}
+
+.container3 .part2 .bloc1 {
+  background-color: #f248223c;
+  width: 30%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.container3 .part2 .bloc2 {
+  background-color: #f248223c;
+  width: 30%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+.container3 .part2 .bloc3 {
+  background-color: #f248223c;
+  width: 30%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+
+
+}
+.container3 .part2 .bloc1 h3{
+  font-family: 'Finger Paint', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merienda', cursive;
+}
+.container3 .part2 .bloc2 h3{
+  font-family: 'Finger Paint', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merienda', cursive;
+}
+.container3 .part2 .bloc3 h3{
+  font-family: 'Finger Paint', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Merienda', cursive;
+}
+.container3 .part2 .bloc1 img{
+  width: 55%;
+
+}
+.container3 .part2 .bloc2 img{
+  width: 55%;
+}
+.container3 .part2 .bloc3 img{
+  width: 55%;
+}
+
+.container3 .part2 .bloc1 p{
+font-size: 13px;
+text-align: center;
+color: #757575;
+margin: 10% 0 10% 0;
+
+}
+.container3 .part2 .bloc2 p{
+  font-size: 13px;
+  text-align: center;
+  color: #757575;
+  margin: 10% 0 10% 0;
+
+
+}
+  .container3 .part2 .bloc3 p{
+    font-size: 13px;
+  text-align: center;
+  color: #757575;
+    margin: 10% 0 10% 0;
+
+}
+
+.container3 .part2 .bloc1 button a{
+  text-decoration: none;
+  color: white;
+}
+.container3 .part2 .bloc2 button a{
+  text-decoration: none;
+  color: white;
+}
+.container3 .part2 .bloc3 button a{
+  text-decoration: none;
+  color: white;
+}
+.container3 .part2 .bloc1 button{
+  border: none;
+  width: 55%;
+  padding: 4% 0 4% 0;
+  background-color: #F24822;
+  border-radius: 20px;
+}
+
+.container3 .part2 .bloc2 button{
+  border: none;
+  width: 55%;
+  padding: 4% 0 4% 0;
+  background-color: #F24822;
+  border-radius: 20px;
+}
+
+.container3 .part2 .bloc3 button{
+  border: none;
+  width: 55%;
+  padding: 4% 0 4% 0;
+  background-color: #F24822;
+  border-radius: 20px;
+}

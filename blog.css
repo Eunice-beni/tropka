@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titre{
+  
+    background-color: #F68C74;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merienda', cursive;
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 16px;
+    margin-bottom: 3% ;
+}
+
+.s-titre{
+    background-color: #F68C74;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merienda', cursive;
+    color: white;
+    margin: 0 auto;
+    width: 20%;
+    padding: 1% 0 1% 0;
+    border-radius: 16px;
+}
+
+.container {
+    text-align: center; /* Centrer horizontalement le contenu */
+    padding-top: 5%;
+    background-color: #c3424205;
+}
+
+.container .cercle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .cercle .c1 {
+    text-align: center; /* Centrer horizontalement le contenu de chaque .c1 */
+
+}
+
+.container .cercle .c1 img {
+    width: 55%; /* Utilisez 100% de la largeur disponible pour les images */
+    border-radius: 50% 50%;
+   
+}
+
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text1{
+    width: 40%;
+    padding: 5%;
+    background-color: #F0F4F1;
+    margin: 5% 10% 5% 5%;
+}
+.text2{
+    width: 40%;
+    padding: 5%;
+    background-color: #F0F4F1;
+    margin: 5% 10% 5% 5%;
+}
+
+.text2 a img{
+    width: 15%;
+    float: right;
+    margin-top: 50%;
+}
+.text2 a img:hover {
+    background-color: #c3424233;
+    border-radius: 25px;
+    padding-top: -50px;
+  }
+
+

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    margin-bottom: -10%;
+
+}
+
+.container .left{
+    border-right: solid black;
+    width: 50%;
+}
+
+.left a{
+    text-decoration: none;
+    color: #DB2929 ;
+}
+
+.indent h4{
+    text-indent: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.form p{
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form input[type=text], input[type=number]{
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: #ffc7c26c;
+    border-radius: 15px;
+    height: 7%;
+    margin: 0 0 5% 2%;
+    padding: 2%;
+}
+
+.form input[type=checkbox]{
+    margin: 0 0 5% 3%;
+    background-color: #ffc7c26c;
+}
+
+
+
+.form input[type=checkbox]{
+    border: none;
+    color: #ffc7c26c;
+}
+
+.form textarea{
+  background-color: #ffc7c26c;
+  border: none;
+  border-radius: 15px;
+  margin: 0 0 5% 3%;
+  padding: 2%;
+  width: 50%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -21%;
+   
+}
+
+.name input[type=text]{
+    padding: 4%;
+width: 150%;
+}
+
+
+
+
+
+hr{
+    margin-top: 10%;
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 10% 2% 10%;
+  }
+  .top a{
+    text-decoration: none;
+    color: #000;
+  }
+  .img-link a img{
+    width: 150px;
+  }
+  .img-place img map{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .img-place img{
+    width: 30px;
+  }
+  
+  .img-place map{
+    margin-top: -9%;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+  }
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7% 2% 7%;
+  
+  }
+  .bottom a{
+    text-decoration: none;
+    color: #000;
+  }
+  .img-mail img{
+    width: 30px;
+  }
+  .img-mail img a{
+  
+  }
+  .img-wha img{
+    width: 30px;
+  }
+  
+  .icones-link img{
+    width: 30px;
+  }
+
+  .right{
+    background-color: white;
+    width: 50%;
+}
+
+.right .titre h3{
+  margin-top: 5% ;
+  align-items: center;
+  margin-left: 25%;
+  font-family: 'Inter' , sans-serif;
+}
+
+.right .cadre{
+  background-color: #F68C74;
+  margin: 3%;
+
+}
+.right .cadre .part-1 .top{
+margin: 0;
+margin-bottom: 2%;
+font-size: 12px;
+font-family: 'Inter' , sans-serif;
+border-bottom: solid black;
+padding-bottom: 10%;
+padding-top: 2%;
+}
+.right .cadre .part-1 .s-t{
+  display: flex;
+  justify-content: space-between;
+border-bottom: solid black;
+padding: 5%;
+}
+.right .cadre .part-1 .s-t h4{
+  font-family: 'Inter' , sans-serif;
+
+}
+
+.right .cadre .part-2{
+  margin: 0 4% 0 4%;
+}
+.right .cadre .part-2 h4{
+  margin-bottom: 3%;
+  
+}
+.right .cadre .part-2 p{
+  font-size: 13px;
+  font-family: cursive;
+  text-align: end;
+  text-indent: 3em;
+  margin-left: -4%;
+  margin-right: 4%;
+}
+span{
+  color: #C12525;
+}
+.right .cadre .part-2 .b{
+  font-size: 13px;
+  font-family: cursive;
+  text-align: end;
+  text-indent: 3em;
+  margin-left: -4%;
+  margin-right: 4%;
+  font-weight:lighter ;
+
+}
+.right .part-3{
+  border-top: solid black;
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .part-4{
+  border-bottom: solid black;
+  font-size: 20px;
+  margin: 3%;
+  font-weight: bold;
+}
+
+.right .part-4 p{
+  padding: 2% 0 2% 10%;
+  margin-bottom: 2%;
+}
+.right .part-4 input{
+  background-color: #ffc7c284;
+  border: none;
+  padding: 5% 9% 5% 9%;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right .part-4 img{
+  width: 150px;
+ margin-left: 8%;
+ margin-bottom: 4%;
+}
+.right .ok{
+  padding: 5%;
+}
+.right .ok button{
+  margin: 4%;
+  padding: 5% 30% 5% 30%;
+  border: none;
+  background-color: #ffc7c284;
+}

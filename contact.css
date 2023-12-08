@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+}
+
+h2{
+    padding: 10% 0 10% 0;
+    width: 95%;
+    background-color: #F68C74;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.container{
+    background-color: #c3424213;
+    padding-bottom:10% ;
+}
+
+.container form{
+    display: flex;
+
+}
+
+.container form .form {
+    margin-top: 10%;
+}
+.container form .form .champ{
+    margin-bottom: 30%; 
+    border: none;
+    border-bottom: solid black 0.2px;   
+    width: 150%;
+}
+.container form .form .champ input{
+    border: none;
+    outline: none;
+    background-color: #c3424200;
+    width: 100%;
+}
+.container form .form a input[type=button] {
+    border: none;
+    outline: none;
+    background-color: #F68C74;
+    width: 70%;
+    padding: 6% 0 6% 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.message{
+    margin-top: 10%;
+}
+.message textarea{
+    border: none;
+    background-color: #F68C74;
+    border-radius: 20px;
+    padding: 10%;
+    outline: none;
+}
